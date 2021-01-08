@@ -1,0 +1,26 @@
+{
+	"context-menu": {
+		"atom-text-editor": [
+			{
+				"label": "Toggle magit-atom",
+				"command": "magit-atom:toggle"
+			}
+		]
+	},
+	"menu": [
+		{
+			"label": "Packages",
+			"submenu": [
+				{
+					"label": "magit-atom",
+					"submenu": [
+						{
+							"label": "Toggle",
+							"command": "magit-atom:toggle"
+						}
+					]
+				}
+			]
+		}
+	]
+}

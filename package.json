@@ -1,0 +1,49 @@
+{
+	"name": "magit-atom",
+	"main": "./lib/magit-atom",
+	"version": "0.0.0",
+	"description": "Magit Package for Atom",
+	"consumedServices": {
+		"status-bar": {
+			"versions": {
+				"^1.0.0": "consumeStatusBar"
+			}
+		},
+		"file-icons.element-icons": {
+			"versions": {
+				"1.0.0": "consumeElementIcons"
+			}
+		}
+	},
+	"configSchema": {
+		"logLevel": {
+			"type": "string",
+			"default": "E",
+			"enum": [
+				{
+					"value": "E",
+					"description": "Error"
+				},
+				{
+					"value": "W",
+					"description": "Warning"
+				},
+				{
+					"value": "I",
+					"description": "Information"
+				}
+			]
+		}
+	},
+	"keywords": [],
+	"activationCommands": {
+		"atom-workspace": "magit-atom:status"
+	},
+	"repository": "https://github.com/SeungukShin/magit-atom",
+	"license": "MIT",
+	"engines": {
+		"atom": ">=1.0.0 <2.0.0"
+	},
+	"dependencies": {
+	}
+}
