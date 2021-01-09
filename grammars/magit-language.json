@@ -1,0 +1,11 @@
+{
+	"scopeName": "source.magit",
+	"name": "magit",
+	"fileTypes": [
+		"magit"
+	],
+	"patterns": [
+	],
+	"repository": {
+	}
+}
