@@ -3,6 +3,7 @@
 		"ctrl-x g": "magit-atom:status"
 	},
 	"atom-text-editor[data-grammar='source magit']": {
-		"g": "magit-atom:update-status"
+		"g": "magit-atom:update-status",
+		"q": "core:cancel"
 	}
 }
