@@ -7,7 +7,7 @@ import MagitAtom from '../lib/magit-atom';
 // To run a specific `it` or `describe` block add an `f` to the front (e.g. `fit`
 // or `fdescribe`). Remove the `f` to unfocus the block.
 
-describe('MagitAtom', () => {
+xdescribe('MagitAtom', () => {
 	let workspaceElement, activationPromise;
 
 	beforeEach(() => {
