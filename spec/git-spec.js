@@ -99,7 +99,7 @@ describe('Git', () => {
 
 		tag = await git.getCurrTag();
 		console.log(tag);
-		expect(tag.tag).toBe('test1');
+		expect(tag.name).toBe('test1');
 		expect(tag.dist).toBe(0);
 
 		// 2 tags -> only one tag is shown
@@ -110,7 +110,7 @@ describe('Git', () => {
 
 		tag = await git.getCurrTag();
 		console.log(tag);
-		expect(tag.tag).toBe('test1');
+		expect(tag.name).toBe('test1');
 		expect(tag.dist).toBe(0);
 
 		// distance to the current tag
@@ -123,7 +123,7 @@ describe('Git', () => {
 
 		tag = await git.getCurrTag();
 		console.log(tag);
-		expect(tag.tag).toBe('test1');
+		expect(tag.name).toBe('test1');
 		expect(tag.dist).toBe(1);
 
 		// distance to the next tag
@@ -138,11 +138,11 @@ describe('Git', () => {
 
 		tag = await git.getCurrTag();
 		console.log(tag);
-		expect(tag.tag).toBe('test1');
+		expect(tag.name).toBe('test1');
 		expect(tag.dist).toBe(1);
 		tag = await git.getNextTag();
 		console.log(tag);
-		expect(tag.tag).toBe('test3');
+		expect(tag.name).toBe('test3');
 		expect(tag.dist).toBe(1);
 	});
 });
