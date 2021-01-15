@@ -4,6 +4,7 @@
 	},
 	"atom-text-editor[data-grammar='source magit']": {
 		"g": "magit-atom:update-status",
+		"tab": "magit-atom:toggle-fold",
 		"q": "core:cancel"
 	}
 }
