@@ -3,6 +3,8 @@
 		"ctrl-x g": "magit-atom:status"
 	},
 	"atom-text-editor[data-grammar='source magit']": {
+		"p": "core:move-up",
+		"n": "core:move-down",
 		"g": "magit-atom:update-status",
 		"tab": "magit-atom:toggle-fold",
 		"q": "core:cancel"
